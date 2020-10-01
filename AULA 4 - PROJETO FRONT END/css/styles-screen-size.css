@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+    --box-area: 400px;
+}
+
+@media only screen and (max-width: 400px) {
+    .eletric {
+        width: 100%;
+    }
+    .border-box {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 200px) {
+    .controle {
+        width: 100%;
+    }
+}
+@media only screen and (max-height: 400px) {
+    .container {
+        height: var(--box-area);
+    }
+    .controle {
+        display: none;
+    }
+    .footer-area {
+        display: none;
+    }
+}
